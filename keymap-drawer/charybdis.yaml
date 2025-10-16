@@ -28,8 +28,8 @@ layers:
   - B
   - N
   - M
-  - ','
-  - {t: ., h: Scroll}
+  - {t: ',', h: Scroll}
+  - .
   - {t: /, h: Sniper}
   - {t: '$$mdi:keyboard-esc$$', h: Numeral}
   - {t: '$$mdi:keyboard-space$$', h: Symbol}
@@ -244,8 +244,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
