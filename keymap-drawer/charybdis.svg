@@ -474,6 +474,11 @@ path.combo {
 <tspan x="588" dy="-0.6em">&amp;mkp</tspan><tspan x="588" dy="1.2em">MB5</tspan>
 </text>
 </g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="456" y="210" width="28" height="26" class="combo"/>
+<a href="#Function">
+<text x="470" y="223" class="combo tap layer-activator"><tspan style="font-size: 88%">Function</tspan></text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 329)" class="layer-Numeral">

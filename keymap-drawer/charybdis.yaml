@@ -391,3 +391,6 @@ combos:
 - p: [23, 13]
   k: ','
   l: [Numeral]
+- p: [33, 34]
+  k: Function
+  l: [Base]
