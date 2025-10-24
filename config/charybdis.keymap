@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NUFU 1
@@ -402,9 +403,9 @@
         Symbol {
             label = "Symbol";
             bindings = <
-  &kp LBRC   &kp AMPS  &kp STAR   &trans     &kp RIGHT_BRACE    &kp HOME   &kp END   &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK
-  &kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS           &kp PG_UP  &kp LEFT  &kp UP           &kp RIGHT       &kp ENTER
-  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE           &kp PG_DN  &trans    &kp DOWN         &trans          &trans
+  &kp LBRC   &kp AMPS  &kp STAR   &trans     &kp RIGHT_BRACE    &kp HOME   &kp END         &kp PRINTSCREEN  &kp SCROLLLOCK   &kp PAUSE_BREAK
+  &kp DQT    &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS           &kp PG_UP  &kp LEFT        &kp UP           &kp RIGHT        &msc SCRL_UP
+  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE           &kp PG_DN  &msc SCRL_LEFT  &kp DOWN         &msc SCRL_RIGHT  &msc SCRL_DOWN
                        &kp LPAR   &kp RPAR   &kp UNDER          &trans     &trans
             >;
         };
