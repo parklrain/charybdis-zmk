@@ -92,17 +92,17 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&msc SCRL_UP'
   - '~'
   - '!'
   - '@'
   - '#'
   - '|'
   - PG DN
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
   - $$mdi:arrow-down-bold$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_DOWN'
   - (
   - {t: ), type: held}
   - _
